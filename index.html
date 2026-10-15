@@ -3,10 +3,10 @@
   GIRLFRIEND'S DAY — for Bhagyashree
   ============================================================
   HOW TO USE THIS FILE
-  1. Just paste/save this whole thing as girlfriends-day.html
-     and open it in a browser. That's it — nothing else needed.
-  2. To send her a live link: go to https://app.netlify.com/drop
-     and drag this file onto the page. You'll get a shareable URL.
+  1. Keep this file named index.html and open it in a browser.
+     Keep the images/ folder alongside it so the photos load.
+  2. To send her a live link, deploy the whole project folder,
+     including images/, to a static hosting service.
 
   WHAT TO CUSTOMIZE — everything lives in the CONFIG object
   near the bottom of the <script> tag:
@@ -379,7 +379,7 @@
       <div class="envelope" id="envelope">
         <div class="env-flap"></div>
         <div class="env-body">
-          <div class="env-photo">    <img src="img8.jpg" alt="Our Photo">
+          <div class="env-photo">    <img src="images/img8.jpg" alt="Our Photo">
 </div>
         </div>
         <div class="env-seal">
@@ -470,11 +470,11 @@ const CONFIG = {
   // with an "src" field (base64 data URL or file path) — the frame
   // will automatically show the image instead of the quote.
   photos: [
-    { src: "img1.jpg", caption: "just being us" },
-    { src: "img2.jpg", caption: "just us, at home" },
-    { src: "img6.jpg", caption: "goofy selfie era" },
-    { src: "img4.jpg", caption: "that little kiss at the mall" },
-    { src: "img5.jpg", caption: "a day with you" },
+    { src: "images/photo1.jpg", caption: "just being us" },
+    { src: "images/photo2.jpg", caption: "just us, at home" },
+    { src: "images/img6.jpg", caption: "goofy selfie era" },
+    { src: "images/img4.jpg", caption: "that little kiss at the mall" },
+    { src: "images/img5.jpg", caption: "a day with you" },
   ],
 
   songTitle: "Main Tera Ho Gaya — Arijit Singh",
